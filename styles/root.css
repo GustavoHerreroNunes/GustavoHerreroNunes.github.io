@@ -1,0 +1,19 @@
+:root { 
+    --light-green: #84D977;
+    --dark-green: #3B7340; 
+    --light-brown: #E5A154; 
+    --dark-brown: #583318; 
+    --new-border-radius: 10px; 
+}
+
+.border-rounded{
+    border-radius: var(--new-border-radius);
+}
+
+h1{
+    font-weight: 450;
+}
+
+body{
+    font-size: 1.2rem;
+}
