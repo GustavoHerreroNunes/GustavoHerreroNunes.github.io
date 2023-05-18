@@ -1,0 +1,133 @@
+@media screen and (max-width: 991px) {
+    :root{
+        /*Hexagon format*/
+        --hexagon-width: 8.7rem;
+        --hexagon-border-x: calc(var(--hexagon-width)/2);
+        --hexagon-border-y: 7.5344rem; 
+        --hexagon-height: calc(var(--hexagon-border-y) * 2);
+        
+        /*Hexagons pattern*/
+        --hexagon-margin-x: 2.5rem;
+        --hexrow-margin-top: 25px;
+        --hexagon-even-top: calc(-4.3301rem);
+        --hexagon-odd-top: 4.3301rem;
+        --hexrow-left: -200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    :root{
+        /*Hexagon format*/
+        --hexagon-width: calc(8.7rem * 1.1);
+        --hexagon-border-x: calc(var(--hexagon-width)/2);
+        --hexagon-border-y: calc(7.5344rem * 1.1); 
+        --hexagon-height: calc(var(--hexagon-border-y) * 2);
+        
+        /*Hexagons pattern*/
+        --hexagon-margin-x: calc(2.5rem * 1.1);
+        --hexrow-margin-top: 25px;
+        --hexagon-even-top: calc(-4.3301rem * 1.1);
+        --hexagon-odd-top: calc(4.3301rem * 1.1);
+        --hexrow-left: 0;
+    }
+}
+
+:root{
+    --grid-hexagon-color: #4e4e4e;
+}
+
+.hexagon-content{
+    color: white;
+    z-index: 0;
+}
+.hexagon{
+    border-radius: 0px;
+    white-space: normal;
+    width: var(--hexagon-width);
+    height: var(--hexagon-height);
+    background: var(--grid-hexagon-color);
+    position: relative;
+    display: inline-block;
+    left: 100px;
+}
+.hexagon::before, .hexagon::after {
+    content: "";
+    border-top: var(--hexagon-border-y) solid transparent;
+    border-bottom: var(--hexagon-border-y) solid transparent;
+    position: absolute;
+}
+.hexagon::before {
+    left: calc((var(--hexagon-border-x) * -1) + 1px);
+    border-right: var(--hexagon-border-x) solid var(--grid-hexagon-color);
+}
+.hexagon::after {
+    top: 0; 
+    right: calc((var(--hexagon-border-x) * -1) + 1px);
+    border-left: var(--hexagon-border-x) solid var(--grid-hexagon-color);
+}
+.hexagon.inner {
+    float: left;
+    left: 0;
+    background-color:black;
+    -webkit-transform: scale(.98, .98);
+    -moz-transform: scale(.98, .98);
+    transform: scale(.98, .98);
+    z-index: 1;
+}
+.hexagon.inner::before {
+    left: calc((var(--hexagon-border-x) * -1) + 2px);
+    border-right: var(--hexagon-border-x) solid black;
+}
+.hexagon.inner::after {
+    right: calc((var(--hexagon-border-x) * -1) + 2px);
+    border-left: var(--hexagon-border-x) solid black;
+}
+
+#skill{
+    background-color: var(--light-green);
+}
+#skill::before{
+    border-right-color: var(--light-green);
+}
+#skill::after{
+    border-left-color: var(--light-green);
+}
+#skill h3{
+    color: var(--light-green);
+}
+
+#quote{
+    background-color: var(--light-brown);
+}
+#quote::before{
+    border-right-color: var(--light-brown);
+}
+#quote::after{
+    border-left-color: var(--light-brown);
+}
+#quote div{
+    color: var(--light-brown);
+}
+
+#content{
+    overflow: hidden;
+}
+
+.hexrow {
+    z-index: 0;
+    white-space: nowrap;
+    margin: 0px 0px var(--hexrow-margin-top); 
+    position: relative;
+}
+
+.hexrow > .hexagon{
+    margin: 0 var(--hexagon-margin-x);
+}
+
+.hexrow > .hexagon:nth-child(odd) {
+    top: var(--hexagon-odd-top); 
+}
+
+.hexrow > .hexagon:nth-child(even) {
+    top: var(--hexagon-even-top);
+}
