@@ -9,9 +9,9 @@
         /*Hexagons pattern*/
         --hexagon-margin-x: 2.5rem;
         --hexrow-margin-top: 25px;
-        --hexagon-even-top: calc(-4.3301rem);
+        --hexagon-even-top: -4.3301rem;
         --hexagon-odd-top: 4.3301rem;
-        --hexrow-left: -200px;
+        --hexrow-margin-right: calc((var(--hexagon-width)/2) * -1);
     }
 }
 
@@ -28,7 +28,7 @@
         --hexrow-margin-top: 25px;
         --hexagon-even-top: calc(-4.3301rem * 1.1);
         --hexagon-odd-top: calc(4.3301rem * 1.1);
-        --hexrow-left: 0;
+        --hexrow-margin-right: 0;
     }
 }
 
@@ -83,16 +83,16 @@
     border-left: var(--hexagon-border-x) solid black;
 }
 
-#skill{
+.skill{
     background-color: var(--light-green);
 }
-#skill::before{
+.skill::before{
     border-right-color: var(--light-green);
 }
-#skill::after{
+.skill::after{
     border-left-color: var(--light-green);
 }
-#skill h3{
+.skill h3{
     color: var(--light-green);
 }
 
@@ -116,7 +116,7 @@
 .hexrow {
     z-index: 0;
     white-space: nowrap;
-    margin: 0px 0px var(--hexrow-margin-top); 
+    margin: 0px var(--hexrow-margin-right) var(--hexrow-margin-top); 
     position: relative;
 }
 
