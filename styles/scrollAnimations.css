@@ -1,0 +1,50 @@
+@keyframes go-to-right {
+    from{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes go-to-left {
+    from{
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes go-to-bottom {
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.scroll{
+    position: "relative";
+    opacity: 0;
+}
+.action{
+    opacity: 1;
+}
+
+.go-to-right.action{
+    animation: go-to-right 1.2s;
+}
+.go-to-left.action{
+    animation: go-to-left 1.2s;
+}
+.go-to-bottom.action{
+    animation: go-to-bottom 1.2s;
+}
