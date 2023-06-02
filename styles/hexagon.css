@@ -8,10 +8,11 @@
         
         /*Hexagons pattern*/
         --hexagon-margin-x: 2.5rem;
-        --hexrow-margin-top: 25px;
+        --hexrow-margin-bottom: 25px;
         --hexagon-even-top: -4.3301rem;
         --hexagon-odd-top: 4.3301rem;
         --hexrow-margin-right: calc((var(--hexagon-width)/2) * -1);
+        --hexgrid-margin-top: 70px;
     }
 }
 
@@ -25,10 +26,11 @@
         
         /*Hexagons pattern*/
         --hexagon-margin-x: calc(2.5rem * 1.1);
-        --hexrow-margin-top: 25px;
+        --hexrow-margin-bottom: 25px;
         --hexagon-even-top: calc(-4.3301rem * 1.1);
         --hexagon-odd-top: calc(4.3301rem * 1.1);
         --hexrow-margin-right: 0;
+        --hexgrid-margin-top: 0;
     }
 }
 
@@ -116,7 +118,7 @@
 .hexrow {
     z-index: 0;
     white-space: nowrap;
-    margin: 0px var(--hexrow-margin-right) var(--hexrow-margin-top); 
+    margin: 0 var(--hexrow-margin-right) var(--hexrow-margin-bottom); 
     position: relative;
 }
 
@@ -130,4 +132,8 @@
 
 .hexrow > .hexagon:nth-child(even) {
     top: var(--hexagon-even-top);
+}
+
+#hexgrid{
+    margin-top: var(--hexgrid-margin-top);
 }

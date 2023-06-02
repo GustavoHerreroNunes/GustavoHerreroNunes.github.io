@@ -2,11 +2,11 @@ const hexagonsController = {
     initialized: false,
 
     initialize: () => {
-        const skillDivs = {
-            frontEnd: document.querySelector("#front-end"),
-            backEnd: document.querySelector("#back-end"),
-            design: document.querySelector("#design"),
-        };
+        const skillDivs = [
+            document.querySelector("#front-end"),
+            document.querySelector("#back-end"),
+            document.querySelector("#design"),
+        ];
         const quoteDiv = document.querySelector("#quote"); 
         const hexRows = document.querySelectorAll(".hexrow");
 
@@ -27,27 +27,27 @@ const hexagonsController = {
         });
         hexagonsController.initialized = true;
     },
+
     setMediaQuery: () => {
         return window.matchMedia("(max-width: 766px)");
     },
+
     changeLayout: (media, skillDivs, quoteDiv, hexRows) => {
         console.log(`Breakpoint is ${!media.matches ? "NOT " : ""}small.`);
         console.log(skillDivs);
+
         if(media.matches){
-            for (const skill in skillDivs) {
-                skillDivs[skill].parentElement.removeChild(skillDivs[skill]);
+            for(let index = 0; index < skillDivs.length; index++){
+                hexRows[index].firstElementChild.after(skillDivs[index]);
             }
             quoteDiv.parentElement.removeChild(quoteDiv);
-            hexRows[0].firstElementChild.after(skillDivs.frontEnd);
-            hexRows[1].firstElementChild.after(skillDivs.backEnd);
-            hexRows[2].firstElementChild.after(skillDivs.design);
         }
         else if(hexagonsController.initialized){
-            let secondHex = hexRows[0].children[2];
-            secondHex.after(skillDivs.frontEnd);
+            const thirdHexFirstRow = hexRows[0].children[2];
+            thirdHexFirstRow.after(skillDivs[0]);
 
-            const firstHex = hexRows[1].firstElementChild;
-            firstHex.after(skillDivs.design, quoteDiv, skillDivs.backEnd)
+            const firstHexSecondRow = hexRows[1].firstElementChild;
+            firstHexSecondRow.after(skillDivs[2], quoteDiv, skillDivs[1]);
         }
     }
 }
