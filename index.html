@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/hexagon.css">
+    <link rel="stylesheet" href="styles/scrollAnimations.css">
     <title>Gustavo Herrero Nunes</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
     <div class="container-fluid" id="content">
         <div class="row p-5 justify-content-between" id="introducingMyself">
             <img class="col-md-4 col-12 rounded-pill" src="assets/perfilTemp.png" alt="Foto de Gustavo Herrero Nunes">
-            <h1 class="col-md-7 col-12 my-auto">
+            <h1 class="col-md-7 col-12 my-auto scroll go-to-left">
                 Hello, I'm
                 <span class="d-block" id="my-name">&ltGustavo Herrero Nunes /&gt</span>
                 Web Developer
@@ -41,14 +42,14 @@
             </a>
         </div>
         <div class="row ps-5 pt-4" id="aboutMe">
-            <h2 class="pt-5" style="z-index: 1" id="about-me">About me</h2>
-            <p class="col-xl-4 col-12" style="z-index: 1">
+            <h2 class="pt-5 scroll go-to-right" style="z-index: 1;" id="about-me">About me</h2>
+            <p class="col-xl-4 col-12 scroll go-to-right" style="z-index: 1">
                 A paixão por Tecnologia me move, amo desenvolver sites e sistemas 
                 online inovadores que atendam as necessidades das pessoas. 
                 Estou sempre aprendendo e me adaptando para, independente da 
                 realidade, criar soluções eficiêntes e sustentáveis.
             </p>
-            <div class="col-xl-8 col-12" id="hexgrid">
+            <div class="col-xl-8 col-12 scroll go-to-left" id="hexgrid">
               <div class="hexrow d-flex flex-row-reverse">
                   <div class="hexagon">
                     <div class="hexagon inner">
@@ -223,6 +224,7 @@
     </div>
 
     <script src="./js/hexagonsController.js"></script>
+    <script src="./js/scrollAnimationController.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
