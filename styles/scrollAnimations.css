@@ -1,50 +1,20 @@
-@keyframes go-to-right {
-    from{
-        transform: translateX(-150px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes go-to-left {
-    from{
-        transform: translateX(150px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes go-to-bottom {
-    from{
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
 .scroll{
     position: "relative";
     opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 1.3s;
 }
-.action{
-    opacity: 1;
+.scroll.go-to-bottom{
+    transform: translateY(-50px);
+}
+.scroll.go-to-right{
+    transform: translateX(-180px);
+}
+.scroll.go-to-left{
+    transform: translateX(180px);
 }
 
-.go-to-right.action{
-    animation: go-to-right 1.2s;
-}
-.go-to-left.action{
-    animation: go-to-left 1.2s;
-}
-.go-to-bottom.action{
-    animation: go-to-bottom 1.2s;
+.scroll.active{
+    opacity: 1;
+    transform: translate(0);
 }
