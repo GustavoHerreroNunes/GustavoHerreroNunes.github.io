@@ -34,7 +34,8 @@ span#my-name{
     color: white;
     z-index: 0;
 }
-#about-me{
-    color: var(--light-green);
-}
 
+#project-tag{
+    border-color: var(--dark-green) !important;
+    color: var(--dark-green);
+}

@@ -14,6 +14,16 @@ h1{
     font-weight: 450;
 }
 
+.dark-green-title{
+    color: var(--dark-green);
+}
+.dark-brown-title{
+    color: var(--dark-brown);
+}
+.light-title{
+    color: var(--light-green);
+}
+
 body{
     font-size: 1.2rem;
 }
