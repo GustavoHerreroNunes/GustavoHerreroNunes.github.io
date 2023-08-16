@@ -29,10 +29,14 @@ span#my-name{
     font-weight: 400;
 }
 
-#aboutMe{
+section#sec-about-me{
     background-color: black;
     color: white;
     z-index: 0;
+}
+
+section#sec-what-did-i{
+    background: white;
 }
 
 #project-tag{
