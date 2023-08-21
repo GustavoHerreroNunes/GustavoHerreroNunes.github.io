@@ -37,6 +37,10 @@ section#sec-about-me{
 
 section#sec-what-did-i{
     background: white;
+    line-height: 1.8;
+}
+section#sec-what-did-i ol{
+    list-style-type: none;
 }
 
 #project-tag{
