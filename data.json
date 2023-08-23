@@ -1,0 +1,74 @@
+{
+    "projects": [
+        {
+            "name": "AI Feeding the Future",
+            "type": "Academic",
+            "description": [
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto"
+            ],
+            "link": "#",
+            "img": {
+                "src": "./assets/carousel-images/teste.jpg",
+                "alt": ""
+            }
+        },
+        {
+            "name": "Pomodoro Timer",
+            "type": "Academic",
+            "description": [
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto"
+            ],
+            "link": "#",
+            "img": {
+                "src": "./assets/carousel-images/teste.jpg",
+                "alt": ""
+            }
+        },
+        {
+            "name": "To Infinite and Beyond",
+            "type": "Academic",
+            "description": [
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto"
+            ],
+            "link": "#",
+            "img": {
+                "src": "./assets/carousel-images/teste.jpg",
+                "alt": ""
+            }
+        },
+        {
+            "name": "Robot Solutions",
+            "type": "Academic",
+            "description": [
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto"
+            ],
+            "link": "#",
+            "img": {
+                "src": "./assets/carousel-images/teste.jpg",
+                "alt": ""
+            }
+        },
+        {
+            "name": "The Zoo",
+            "type": "Academic",
+            "description": [
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto",
+                "Aspecto importante sobre o projeto"
+            ],
+            "link": "#",
+            "img": {
+                "src": "./assets/carousel-images/teste.jpg",
+                "alt": ""
+            }
+        }
+    ]
+}
