@@ -43,7 +43,38 @@ section#sec-what-did-i ol{
     list-style-type: none;
 }
 
-#project-tag{
+/* section#sec-why-me{
+    background-color: black;
+} */
+section#sec-why-me li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul#soft-skills li{
+    border: 5px solid var(--dark-green);
+    border-radius: 25px;
+}
+ul#soft-skills h3{
+    color: var(--dark-green);
+}
+ul#soft-skills h4{
+    color: var(--dark-green);
+}
+
+
+ul#academic-background li{
+    border: 5px solid var(--dark-brown);
+    border-radius: 25px;
+}
+ul#academic-background h3{
+    color: var(--dark-brown);
+}
+ul#academic-background h4{
+    color: var(--dark-brown);
+}
+
+.project-tag{
     border-color: var(--dark-green) !important;
     color: var(--dark-green);
 }
