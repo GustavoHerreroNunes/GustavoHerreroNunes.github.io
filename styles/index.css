@@ -43,14 +43,17 @@ section#sec-what-did-i ol{
     list-style-type: none;
 }
 
-/* section#sec-why-me{
-    background-color: black;
-} */
+section#sec-why-me{
+    background-color: #EEE;
+}
 section#sec-why-me li{
     list-style-type: none;
     margin-bottom: 20px;
 }
 
+ul#soft-skills{
+    border-right: 4px solid black;
+}
 ul#soft-skills li{
     border: 5px solid var(--dark-green);
     border-radius: 25px;
