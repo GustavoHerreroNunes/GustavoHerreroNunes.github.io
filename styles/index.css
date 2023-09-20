@@ -65,7 +65,6 @@ ul#soft-skills h4{
     color: var(--dark-green);
 }
 
-
 ul#academic-background li{
     border: 5px solid var(--dark-brown);
     border-radius: 25px;
@@ -80,4 +79,16 @@ ul#academic-background h4{
 .project-tag{
     border-color: var(--dark-green) !important;
     color: var(--dark-green);
+}
+
+ul#reviews-list{
+    list-style-type: none;
+}
+ul#reviews-list li{
+    border: 2px var(--dark-green) solid;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+ul#reviews-list div.review-author{
+    color: var(--dark-brown);
 }
