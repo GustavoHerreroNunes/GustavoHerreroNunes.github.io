@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-md p-0" id="main-menu">
         <div class="container-fluid p-0">
-            <a class="navbar-brand p-4" href="index.html">&ltGustavo Herrero Nunes /&gt</a>
+            <a class="navbar-brand" href="index.html">&ltGustavo Herrero Nunes /&gt</a>
             <button 
               class="navbar-toggler bg-none border-0"
               data-bs-toggle="collapse"
@@ -40,6 +40,9 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="index.html#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item" id="contact-me-link">
+                      <a class="nav-link" href="index.html#contact-me">Contact-me</a>
                     </li>
                 </ul>
             </div>
@@ -374,6 +377,65 @@
               </p>
             </li>
           </ul>
+        </section>
+        <section 
+          class="row ps-md-5 ps-2 py-5 justify-content-lg-center"
+          id="sec-contact-me"
+        >
+          <h2 class="mb-4 dark-brown-title scroll go-to-right" id="contact-me">Contact-me</h2>
+          <form 
+            class="col-lg-9 col-12 scroll go-to-left"
+            action="mailto:ghnunes2010@gmail.com" 
+            method="post" 
+            name="frmEmail"
+            id="frmEmail"
+          >
+          <div class="d-flex flex-md-row flex-column justify-content-between">
+            <input
+              class="form-control form-control-lg me-md-3 me-0 mb-md-0 mb-3" 
+              type="text"
+              name="txbName"
+              id="txbName"
+              placeholder="Seu nome"
+            >
+            <input
+              class="form-control form-control-lg" 
+              type="email"
+              name="txbEmail"
+              id="txbEmail"
+              placeholder="Seu endereço de e-mail"
+            >
+          </div>
+            <input
+              class="form-control form-control-lg" 
+              type="text"
+              name="txbSubject"
+              id="txbSubject"
+              placeholder="Assunto da mensagem"
+            >
+            <textarea 
+              class="form-control form-control-lg"
+              name="txbMessage"
+              id="txbMessage"
+              cols="30"
+              rows="10"
+              placeholder="Sua mensagem"
+            ></textarea>
+            
+            <button class="btn btn-lg btn-success w-100" type="submit">Enviar E-mail</button>
+          </form>
+
+          <div class="col-lg-9 col-12 mt-4" id="social-media-links">
+            <a href="https://www.linkedin.com/in/gustavoherreronunes/" target="_blank">
+              <img src="./assets/linkedin.png" alt="LinkedIn logotipo" width="50" height="50">
+            </a>
+            <a href="https://github.com/GustavoHerreroNunes" target="_blank">
+              <img src="./assets/github.png" alt="Github logotipo" width="50" height="50">
+            </a>
+            <a href="https://www.instagram.com/gustavo_herrero_nunes/" target="_blank">
+              <img src="./assets/instagram.png" alt="Instagram logotipo" width="50" height="50">
+            </a>
+          </div>
         </section>
     </div>
 

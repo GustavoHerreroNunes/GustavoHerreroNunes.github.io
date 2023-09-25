@@ -29,6 +29,10 @@ section#sec-why-me li{
     margin-bottom: 20px;
 }
 
+section#sec-contact-me{
+    background-color: #EEE;
+}
+
 ul#soft-skills{
     border-right: 4px solid black;
 }
@@ -66,6 +70,14 @@ ul#reviews-list div.review-author{
     color: var(--dark-brown);
 }
 
+#frmEmail input, textarea{
+    margin: 20px 0px;
+    border: 1px solid var(--dark-green) !important;
+}
+#frmEmail div input{
+    margin: 0;
+}
+
 span#my-name{
     color: var(--dark-green);
     font-weight: 600;
@@ -75,12 +87,16 @@ span#my-name{
 #main-menu a{
     color: var(--dark-green);
     font-weight: 500;
+    padding: 0;
+}
+
+#main-menu .nav-item, .navbar-brand{
+    padding: 25px 10px !important;
 }
 
 #main-menu .navbar-brand{
     color: white;
     background-color: var(--dark-green);
-    font-weight: 500;
 }
 
 #main-menu .navbar-toggler{
@@ -88,7 +104,18 @@ span#my-name{
     font-size: 2.7rem;
 }
 
+#main-menu #contact-me-link{
+    background-color: var(--light-brown);
+}
+#main-menu #contact-me-link a{
+    color: var(--dark-brown);
+}
+
 .project-tag{
     border-color: var(--dark-green) !important;
     color: var(--dark-green);
+}
+
+#social-media-links a{
+    text-decoration: none;
 }
