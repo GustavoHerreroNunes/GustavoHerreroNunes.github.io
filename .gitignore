@@ -1,4 +1,10 @@
 # Development assets
 assets/carousel-images/base_pictures
 
+# Script under testing
+/js/setOnEnterHandlerBackup.js
+
+# Sensitive data
+/config.json
+
 /node_modules
