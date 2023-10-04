@@ -385,21 +385,20 @@
           <h2 class="mb-4 dark-brown-title scroll go-to-right" id="contact-me">Contact-me</h2>
           <form 
             class="col-lg-9 col-12 scroll go-to-left"
-            action="mailto:ghnunes2010@gmail.com" 
-            method="post" 
-            name="frmEmail"
-            id="frmEmail"
+            method="POST" 
+            name="frmContactMe"
+            id="frmContactMe"
           >
           <div class="d-flex flex-md-row flex-column justify-content-between">
             <input
-              class="form-control form-control-lg me-md-3 me-0 mb-md-0 mb-3" 
+              class="txb form-control form-control-lg me-md-3 me-0 mb-md-0 mb-3" 
               type="text"
               name="txbName"
               id="txbName"
               placeholder="Seu nome"
             >
             <input
-              class="form-control form-control-lg" 
+              class="txb form-control form-control-lg" 
               type="email"
               name="txbEmail"
               id="txbEmail"
@@ -407,14 +406,14 @@
             >
           </div>
             <input
-              class="form-control form-control-lg" 
+              class="txb form-control form-control-lg" 
               type="text"
               name="txbSubject"
               id="txbSubject"
               placeholder="Assunto da mensagem"
             >
             <textarea 
-              class="form-control form-control-lg"
+              class="txb form-control form-control-lg"
               name="txbMessage"
               id="txbMessage"
               cols="30"
@@ -422,7 +421,16 @@
               placeholder="Sua mensagem"
             ></textarea>
             
-            <button class="btn btn-lg btn-success w-100" type="submit">Enviar E-mail</button>
+            <button 
+              class="btn btn-lg btn-success w-100"
+              id="btnSubmit"
+              type="submit"
+              >
+              Enviar E-mail
+            </button>
+            <span id="thankyou-message" class="fs-4 text-success">
+              <em>Mensagem enviada! Obrigado por entrar em contato!</em>
+            </span>
           </form>
 
           <div class="col-lg-9 col-12 mt-4" id="social-media-links">
@@ -440,6 +448,7 @@
     </div>
 
     <script type="module" src="./js/dataController.js"></script>
+    <script type="module" src="./js/submitFormHandler.js"></script>
     <script src="./js/hexagonsController.js"></script>
     <script src="./js/scrollAnimationController.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

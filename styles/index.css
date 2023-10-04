@@ -70,11 +70,11 @@ ul#reviews-list div.review-author{
     color: var(--dark-brown);
 }
 
-#frmEmail input, textarea{
+#frmContactMe input, textarea{
     margin: 20px 0px;
     border: 1px solid var(--dark-green) !important;
 }
-#frmEmail div input{
+#frmContactMe div input{
     margin: 0;
 }
 
@@ -118,4 +118,8 @@ span#my-name{
 
 #social-media-links a{
     text-decoration: none;
+}
+
+#thankyou-message{
+    display: none;
 }
