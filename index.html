@@ -395,14 +395,16 @@
               type="text"
               name="txbName"
               id="txbName"
-              placeholder="Seu nome"
+              placeholder="Seu nome *"
+              required
             >
             <input
               class="txb form-control form-control-lg" 
               type="email"
               name="txbEmail"
               id="txbEmail"
-              placeholder="Seu endereço de e-mail"
+              placeholder="Seu endereço de e-mail *"
+              required
             >
           </div>
             <input
@@ -410,7 +412,8 @@
               type="text"
               name="txbSubject"
               id="txbSubject"
-              placeholder="Assunto da mensagem"
+              placeholder="Assunto da mensagem *"
+              required
             >
             <textarea 
               class="txb form-control form-control-lg"
@@ -418,7 +421,8 @@
               id="txbMessage"
               cols="30"
               rows="10"
-              placeholder="Sua mensagem"
+              placeholder="Sua mensagem *"
+              required
             ></textarea>
             
             <button 
@@ -428,7 +432,7 @@
               >
               Enviar E-mail
             </button>
-            <span id="thankyou-message" class="fs-4 text-success">
+            <span id="lblThankYou" class="fs-4 text-success">
               <em>Mensagem enviada! Obrigado por entrar em contato!</em>
             </span>
           </form>
