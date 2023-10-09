@@ -77,7 +77,22 @@ ul#academic-background h4{
     color: var(--dark-brown);
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: var(--light-brown);
+}
+footer a:hover{
+    color: #e0ae75;
+}
+
 .project-tag{
     border-color: var(--dark-green) !important;
     color: var(--dark-green);
+}
+
+#social-media-links a{
+    text-decoration: none;
 }
