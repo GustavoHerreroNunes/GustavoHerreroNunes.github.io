@@ -44,11 +44,13 @@
     </nav>
     <div class="container-fluid p-0" id="content">
         <section class="row p-5 justify-content-between" id="introducingMyself">
-            <img class="col-md-4 col-12 rounded-pill" src="assets/perfilTemp.png" alt="">
-            <h1 class="col-md-7 col-12 my-auto scroll go-to-left">
-                Hello, I'm
-                <span class="d-block" id="my-name">&ltGustavo Herrero Nunes /&gt</span>
-                Web Developer
+            <img class="col-sm-5 col-12 rounded-pill" src="assets/perfilTemp.png" alt="">
+            <h1 class="col-sm-7 col-12 my-md-auto mt-4 fs-1 scroll go-to-left">
+                <span class="code-style">Hello, I'm</span>
+                <span class="d-block my-4" id="my-name">
+                  <span class="code-style">&ltGustavo Herrero Nunes /&gt</span>
+                </span>
+                <span class="code-style">Web Developer</span>
             </h1>
         </section>
         <section class="row text-center pt-5" id="turningInsights">
@@ -319,18 +321,52 @@
             </li>
           </ul>
         </section>
-        <footer class="container-fluid py-5">
+        <footer class="container-fluid py-5 text-md-center text-start">
           <ul class="row justify-md-content-center justify-content-start list-unstyled" id="links-mapping">
             <li class="col-md col-5 pt-md-0 pt-2"><a href="#about-me">About me</a></li>
             <li class="col-md col-5 pt-md-0 pt-2"><a href="#what-did-i">What did I?</a></li>
             <li class="col-md col-5 pt-md-0 pt-2"><a href="#why-me">Why me?</a></li>
           </ul>
           <div class="row mt-4">
-            <div class="col text-md-center text-start">
-              © 2023 Gustavo Herrero Nunes
+            <div class="col d-flex justify-content-md-center justify-content-start">
+              <div>
+                Icons from <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>, made by: 
+                
+                <ul class="list-unstyled text-start m-auto collapse ul-flaticon-authors">
+                  <li>
+                    <a href="https://www.flaticon.com/br/autores/pixel-perfect" target="_blank">Pixel Perfect</a>
+                  </li>
+                  <li>
+                    <a href="https://www.flaticon.com/br/autores/freepik" target="_blank">Freepik</a>
+                  </li>
+                  <li>
+                    <a href="https://www.flaticon.com/br/autores/najmunnahar" target="_blank">NajmunNahar</a>
+                  </li>
+                  <li>
+                    <a href="https://www.flaticon.com/br/autores/icon-home" target="_blank">Icon home</a>
+                  </li>
+                  <li class="text-center">
+                    <button class="btn" id="btnToggleFlaticon" data-bs-toggle="collapse" data-bs-target=".ul-flaticon-authors">
+                      <img src="./assets/toggle-up.svg" alt="down pointed arrow">
+                    </button>
+                  </li>
+                </ul>
+
+                <br>
+
+                <button class="btn border-0 collapse show ul-flaticon-authors" id="btnToggleFlaticon" data-bs-toggle="collapse" data-bs-target=".ul-flaticon-authors">
+                  <img src="./assets/toggle-down.svg" alt="down pointed arrow">
+                </button>
+              </div>
             </div>
           </div>
-          <div class="row d-flex text-md-center text-start">
+          <div class="row mt-4">
+            <div class="col">
+              Made with <span class="aria-hidden">❤️</span>
+              <span class="visually-hidden">love</span> by Gustavo Herrero Nunes
+            </div>
+          </div>
+          <div class="row d-flex">
             <div class="col-12 mt-4" id="social-media-links">
               <a href="https://www.linkedin.com/in/gustavoherreronunes/" target="_blank">
                 <img src="./assets/linkedin.png" alt="LinkedIn logotipo" width="45" height="45">
