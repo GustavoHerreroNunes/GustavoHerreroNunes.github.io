@@ -14,12 +14,6 @@
     font-size: 2.7rem;
 }
 
-span#my-name{
-    color: var(--dark-green);
-    font-weight: 600;
-    font-size: 3rem;
-}
-
 #turningInsights{
     background-color: black;
 }
@@ -93,6 +87,34 @@ footer a:hover{
     color: var(--dark-green);
 }
 
+h1{
+    color: white;
+}
+
+span#my-name{
+    color: var(--light-green);
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.code-style{
+    border-radius: 8px;
+    padding: 6px 10px;
+    background-color: #333;
+}
+
+#introducingMyself{
+	background-image: url("../assets/background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
 #social-media-links a{
     text-decoration: none;
+}
+
+#project-list img{
+	border: 2px solid var(--dark-green);
+	border-width: 0px 0px 2px 2px;
 }
