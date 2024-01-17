@@ -33,8 +33,6 @@ const hexagonsController = {
     },
 
     changeLayout: (media, skillDivs, quoteDiv, hexRows) => {
-        console.log(`Breakpoint is ${!media.matches ? "NOT " : ""}small.`);
-        console.log(skillDivs);
 
         if(media.matches){
             for(let index = 0; index < skillDivs.length; index++){
