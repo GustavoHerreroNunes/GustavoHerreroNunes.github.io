@@ -18,7 +18,7 @@ const projectListItem = {
                         <p><a class="project-link" href=${link}>Acesse o projeto</a></p>
                     </div>
                     <div class="col">
-                        <img src=${imgSrc} class="d-block w-100" alt=${imgAlt}>
+                        <img src=${imgSrc} class="d-block w-100" alt="${imgAlt}">
                     </div>
                 </div>
             </li>
