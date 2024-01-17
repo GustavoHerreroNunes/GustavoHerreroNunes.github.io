@@ -1,73 +1,73 @@
 {
     "projects": [
         {
-            "name": "AI Feeding the Future",
-            "type": "Academic",
-            "description": [
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto"
-            ],
-            "link": "#",
-            "img": {
-                "src": "./assets/carousel-images/teste.jpg",
-                "alt": ""
-            }
-        },
-        {
             "name": "Pomodoro Timer",
-            "type": "Academic",
+            "type": "Pessoal",
             "description": [
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto"
+                "Extensão para Google Chrome",
+                "Organização da rotina e aumento da produtividade com períodos de foco",
+                "HTML5 - CSS3 - JS ES6 - Manifest V3 (Chrome) - Figma"
             ],
-            "link": "#",
+            "link": "https://github.com/GustavoHerreroNunes/easy_pomodoro",
             "img": {
-                "src": "./assets/carousel-images/teste.jpg",
-                "alt": ""
-            }
-        },
-        {
-            "name": "To Infinite and Beyond",
-            "type": "Academic",
-            "description": [
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto"
-            ],
-            "link": "#",
-            "img": {
-                "src": "./assets/carousel-images/teste.jpg",
-                "alt": ""
+                "src": "./assets/carousel-images/Easy_Pomodoro.png",
+                "alt": "A interface de usuário da extensão 'Easy Pomodoro'. O título 'Pomodoro' está escrito no topo em vermelho, com o status 'Cancelado' logo abaixo em verde. Há um grande círculo sem preenchimento com borda vermelha com '30:00' no centro, indicando o tempo definido. Abaixo do círculo, há dois botões retangulares; um verde escrito 'Iniciar' e um vermelho escrito 'Pular'. Abaixo dos botões, há uma linha de indicadores circulares representando os ciclos do temporizador; três estão preenchidos em verde e os outros estão vazios. No canto inferior direito, há um texto escrito 'Reiniciar' em verde ao lado de ícone circular com duas setas circulares também em verde."
             }
         },
         {
             "name": "Robot Solutions",
-            "type": "Academic",
+            "type": "Acadêmico - ETEC",
             "description": [
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto"
+                "Sistema de Registro de Clientes",
+                "Armazenamento e organização dos dados para a criação de estratégias comerciais",
+                "PHP - MySQL - HTML5 - Bootstrap 5 - JS"
             ],
-            "link": "#",
+            "link": "https://github.com/GustavoHerreroNunes/robot_solutions",
             "img": {
-                "src": "./assets/carousel-images/teste.jpg",
-                "alt": ""
+                "src": "./assets/carousel-images/Robot_Solutions.png",
+                "alt": "Uma interface de usuário da aplicação Robot Solutions. O título 'Cadastrar' está no topo da tela. Há os seguintes tipos campos de formulário acompanhados por um rótulos e instruções: Campo de texto, 'Nome', 'Nome completo do cliente'; Campo numérico, 'Telefone', 'Telefone celular do cliente'; Menu suspenso, 'Origem', 'Como o cliente encontrou a loja'; Campo de data com um ícone de calendário, 'Data de Contato', 'dd/mm/aa'. Campo de texto longo, 'Observações', 'Uma observação sobre o cliente de até 200 caractéres'. Ao final da tela existem dois botões: o primeiro preenchido em azul com o texto 'Cadastrar'; o segundo preenchido em cinza escuro com o texto 'Limpar'."
+            }
+        },
+        {
+            "name": "To Infinite and Beyond",
+            "type": "Acadêmico - FIAP",
+            "description": [
+                "Jogo para Navegador (browser game)",
+                "Desbrave o infinito universo em sua nave enquanto desvia de asteroides",
+                "JS ES6 - HTML5 - Bootstrap 5"
+            ],
+            "link": "https://github.com/GustavoHerreroNunes/to-infinity-and-beyond",
+            "img": {
+                "src": "./assets/carousel-images/To_Infinity_and_Beyond.png",
+                "alt": "Uma captura de tela do jogo eletrônico 'To Infinity and Beyond' pelo navegador. O fundo do jogo é um campo estelar escuro com muitas pequenas estrelas brancas. Existe um disco voador perto do centro da imagem nas cores ciano, magenta e amarelo. Há cinco grandes asteróides laranjas com crateras no centro espalhados pelo campo estelar. No topo esquerdo da tela, existem dois textos: 'High Score: 16' com preenchimento laranja e borda preta; 'Times Played: 1' com preenchimento branco e borda preta. Na parte inferior esquerda da tela, está escrito 'Score: 16' com preenchimento branco azulado e borda preta."
             }
         },
         {
             "name": "The Zoo",
-            "type": "Academic",
+            "type": "Pessoal",
             "description": [
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto",
-                "Aspecto importante sobre o projeto"
+                "Site institucional estilo SPA (Single Page Application)",
+                "Divulgação de notícias, principais atrações e ações de preservação do zoológico",
+                "HTML5 - Bootstrap 5"
             ],
-            "link": "#",
+            "link": "https://github.com/GustavoHerreroNunes/the_zoo",
             "img": {
-                "src": "./assets/carousel-images/teste.jpg",
-                "alt": ""
+                "src": "./assets/carousel-images/The_Zoo.png",
+                "alt": "A interface de usuário do site 'The Zoo'. O topo da página tem um menu contendo a logo do site - um ícone do rosto de uma panda gigante ao lado do texto 'The Zoo', tudo na cor laranja - e as opções 'Novidades', 'Atrações' e 'Preservação'. Há uma foto que ocupa um terço da imagem de uma arara azul, que está mordendo um galho. Na parte inferior direita da foto da arara, existem os textos 'Em Resgate à Amazônia' e 'The Zoo participa ativamente de programas de proteção e preservação da Amazônia'. Há outra seção intitulada 'Novidades' com o subtítulo 'Dê as boas vindas para os novos animais do The Zoo', e abaixo desse texto há fotos em molduras circulares mostrando os seguintes animais: Pavão, Iguana e Lêmure de Cauda Anelada. Essas fotos circulares ultrapassam o limite vertical da tela e só a metade superior delas é visível."
+            }
+        },
+        {
+            "name": "AI Feeding the Future",
+            "type": "Acadêmico - FIAP",
+            "description": [
+                "Sistema de Gestão Logistica - UI Design",
+                "Criação de rotas inteligêntes para a entrega de alimentos perecíveis dos produtores para os comerciantes.",
+                "Figma"
+            ],
+            "link": "null",
+            "img": {
+                "src": "./assets/carousel-images/Ai_Feeding_the_Future.png",
+                "alt": "O design da interface de usuário da aplicação 'AI Feeding the Future'. O título 'Contratos de Transporte' está no topo da imagem. À esquerda, há uma lista com três contratos listados (#DE09, #DE10, #DE11) mostrando as conexões entre produtores e distribuidores. #DE09 conecta 'Fazenda Marlon' e 'Clara Cleiton ltda.' a 'HortiFácil' e 'Arnaldo Distribuição'. #DE10 conecta 'Clara Cleiton ltda.' a 'Arnaldo Distribuição'. #DE11 conecta 'Fazenda Suzasa', 'Fazenda Futuro', e 'Souza & Santos' a 'HortiFácil' e 'GreenFood'. O primeiro contrato, #DE09, está selecionado, com uma borda verde claro ao seu redor. À direita, há um mapa mostrando localizações marcadas como P1, P2, P3, D1 e D2.  Abaixo do mapa algumas localizações são detalhadas - P1, P2 e P3 - que representam os produtores de alimentos. Produtor P1: Fazenda Marlon - Pera 78 kg - Rua Ovelhas Elétricas nº1955 - Data de retirada: 12/05/23 às 10:45. Produtor P2: Clara Cleiton ltda. - Banana 108 kg - Rua Pardal nº155 - Data de retirada: 12/05/23 às 11:00. Os Detalhes sobre o produtor P3 ultrapassam o limite horizontal da tela e não são totalmente legíveis. Há um botão em verde claro com o texto 'Aceitar Contrato' no canto superior direito do mapa."
             }
         }
     ]
