@@ -40,7 +40,7 @@
 
 .hexagon-content{
     color: white;
-    z-index: 0;
+	padding-left: 1px;
 }
 .hexagon{
     border-radius: 0px;
@@ -107,8 +107,8 @@
 #quote::after{
     border-left-color: var(--light-brown);
 }
-#quote div{
-    color: var(--light-brown);
+#quote h3{
+	color: var(--light-brown);
 }
 
 #content{
